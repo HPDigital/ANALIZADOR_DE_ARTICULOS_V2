@@ -1,15 +1,17 @@
-# Dependencias base
-# Añade aquí las librerías específicas que necesites
+# Analizador de Artículos Científicos V2
+# Dependencias del proyecto
 
-# Común para proyectos con OpenAI
-# openai>=1.0.0
+# OpenAI API
+openai>=1.0.0
 
-# Común para notebooks
-# jupyter>=1.0.0
-# ipykernel>=6.0.0
+# Procesamiento de PDF
+PyMuPDF>=1.23.0
 
-# Común para data science
-# pandas>=2.0.0
-# numpy>=1.24.0
+# Variables de entorno
+python-dotenv>=1.0.0
 
-# Añade las dependencias específicas de tu proyecto aquí
+# Interfaz gráfica (incluida en Python estándar)
+# tkinter viene con Python por defecto
+
+# Opcional: Para mejores logs
+colorlog>=6.7.0

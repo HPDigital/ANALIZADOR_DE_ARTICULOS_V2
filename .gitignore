@@ -48,3 +48,9 @@ Thumbs.db
 *.xls
 *.db
 *.sqlite
+
+# Project specific
+output/
+temp/
+*.txt
+!requirements.txt
